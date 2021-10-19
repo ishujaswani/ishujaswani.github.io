@@ -2,9 +2,9 @@ title: Ishu Jaswani # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
-  <br>My name is ishu Jaswani<br>
+  <br><br>
   Second description 
-  <br>I am a Data analyst<br>
+  <br><br>
   <a href="https://www.linkedin.com/in/ishu-jaswani-354566160">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
