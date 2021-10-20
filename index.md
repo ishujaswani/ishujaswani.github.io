@@ -1,29 +1,24 @@
-## Portfolio
+## Data Science Portfolio
 
 ---
 
-### Category Name 1 
+### Stock Market Analysis 
 
-[Project 1 Title](/sample_page)
+[Exploratory Data Analysis on Motor Companies](https://github.com/ishujaswani/ishujaswani.github.io/blob/master/Exploratory_data_analysis_on_Motor_company's_stocks.ipynb)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
+[Optimising Portfolios by Allocating Efficent Weights](https://github.com/ishujaswani/ishujaswani.github.io/blob/master/Optimising_portfolios_by_allocating_efficient_weights.ipynb)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
+### Time Series Analysis
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Decomposing Error Trend and Seasonality](https://github.com/ishujaswani/ishujaswani.github.io/blob/master/Decomposing_error_trend_and_Seasonality.ipynb)
+- [Exponentially Weighted Moving Average](https://github.com/ishujaswani/ishujaswani.github.io/blob/master/Exponentially_weighted_moving_average.ipynb)
+- [Recognising Trend in Time Series Data](https://github.com/ishujaswani/ishujaswani.github.io/blob/master/Recognising_Trend_in_Time_Series_Data.ipynb)
+- [Forcasting Milk Production using ARIMA](https://github.com/ishujaswani/ishujaswani.github.io/blob/master/Forecasting_Milk_Production_using_ARIMA_.ipynb)
 
 ---
 
