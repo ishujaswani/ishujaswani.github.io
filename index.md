@@ -5,12 +5,12 @@
 ### Stock Market Analysis 
 
 [Exploratory Data Analysis on Motor Companies](https://github.com/ishujaswani/ishujaswani.github.io/blob/master/Exploratory_data_analysis_on_Motor_company's_stocks.ipynb)
-<img src="images/Returns_Scatter.jpg?raw=true"/>
-<img src="images/Cumulative_returns.jpg?raw=true"/>
+<img src="images/Returns_Scatter.png?raw=true"/>
+<img src="images/Cumulative_returns.png?raw=true"/>
 
 ---
 [Optimising Portfolios by Allocating Efficent Weights](https://github.com/ishujaswani/ishujaswani.github.io/blob/master/Optimising_portfolios_by_allocating_efficient_weights.ipynb)
-<img src="images/EFC.jpg?raw=true"/>
+<img src="images/EFC.png?raw=true"/>
 
 ---
 
