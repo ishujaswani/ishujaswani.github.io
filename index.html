@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/923af28ec7.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Finance and Analytics</p>
+                <h1>Hi, I am <span>Ishu Jaswani</span> <br> Studying at Columbia University</h1>
+            </div>
+        </div>
+    </div>
+<!--------------------- about --------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/About.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class='sub-title'>About Me</h1>
+                    <p>
+                        My passion for finance, nurtured by my father's success as an equity investor, has fueled my drive to become a lifelong student in the field.
+
+                        My journey in finance began at an early age, as I closely followed financial news with my father, gradually developing a deep understanding of financial numbers. This early exposure motivated me to start investing in the stock market, which quickly became a passion. To expand my knowledge, I pursued an undergraduate degree in finance and accounting, focusing on understanding balance sheets. Additionally, I completed CFA Level 1 to gain a comprehensive knowledge of finance and the ability to make informed investment decisions.
+                        
+                        While studying for CFA level 1, I developed a strong liking for quantitative analysis. This got reassured when I received a 95 percentile in quantitative analysis in CFA level 1. Therefore, I went ahead with a postgraduate diploma in economics, econometrics, and data analytics. This program equipped me with the necessary skills to analyze and leverage data in the financial industry. Currently, I am pursuing a Masters's in Applied Analytics to further develop my ability to analyze complex financial data and forecast future trends.
+                    </p>
+                    <div class="tab-titles">
+                        <p class = 'tab-links active-link' onclick="opentab('Skills')">Skills</p>
+                        <p class = 'tab-links' onclick="opentab('Experience')">Experience</p>
+                        <p class = 'tab-links' onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Finance</span><br>Financial Modelling, Accounting, Bloomberg, Refinitiv Workspace</li>
+                            <li><span>Analytics</span><br>Python, R, Tableau, Mathematics, Statistics, Machine learning</li>
+                            <li><span>Economics</span><br>Macroeconomics, Microeconomics, Econometrics</li>
+                             
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Jun 2023 - Current</span><br>Graduate Research Assistant at Columbia University</li>
+                            <li><span>Mar 2022 - May 2022</span><br>Business Analyst at AMN life Science</li>
+                            <li><span>Jan 2021 - Jun 2021</span><br>Equity Research Intern at CLSA</li>
+                            <li><span>Jan 2020 - Mar 2020</span><br>Capital Markets Consultant at Knight Frank</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Sept 2022 - Dec 2023</span><br>MSc in Applied Analytics - Columbia University</li>
+                            <li><span>Aug 2019 - Aug 2020</span><br>PGDM in Economics and Data Analytics - Gokhale Institue of Politics and Economics</li>
+                            <li><span>Jan 2019</span><br>Chartered Financial Analyst - Passed level 1 (CFA Institute)</li>
+                            <li><span>May 2016 - June 2019</span><br>BAF (Accounting and Finance) - Mumbai University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------------- Services -------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class='sub-title'>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    <h2>Investment Analysis/Management</h2>
+                    <p>I can analyse investments coz i have so much exp blah blah blah</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <h2>Economic Analysis</h2>
+                    <p>I can analyse investments coz i have so much exp blah blah blah</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Science</h2>
+                    <p>I can analyse investments coz i have so much exp blah blah blah</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------- portfolio -------------------------     -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class='sub-title'>My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/WSB.jpeg">
+                    <div class="layer">
+                        <h3>r\wallstreetbets sentiment Analysis</h3>
+                        <p>Spearheaded an ARIMA-based Time Series Analysis to predict 10 tech stocks. Analyzed r/wallstreetbets sentiments (Affin: 0.34, Jocker: 0.10), noted 437 more puts than calls, hinting bearishness. Found 0.6 similarity between predictions and sentiments </p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Creating-Portfolio-using-Machine-learning"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/PM-1.jpeg">
+                    <div class="layer">
+                        <h3>Active Portfolio Management</h3>
+                        <p>Managed a $1Mn portfolio of 15 stocks, beating the S&P 500 index by 3%. Back tested using advanced models (Index, Mean-Variance, FAMA French, Black Litterman, CAPM, Equity Valuation), algorithmic trading, and machine learning (XGBoost, SVR, Neural Networks)</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Portfolio_Management_With_Machine_Learning"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/DataEngg_spark.jpeg">
+                    <div class="layer">
+                        <h3>Real-Time Stock Trading Analysis with Apache Spark</h3>
+                        <p>Designed a real-time stock trading application using HTML, CSS, Python, and Apache Spark, and analyzed a multi-million dataset of 6875 stocks, incorporating risk management into trading strategies in under 1.5 minutes.</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Stock-Trading-Using-Data-Engineering"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/CRM.png">
+                    <div class="layer">
+                        <h3>Credit Risk Modelling</h3>
+                        <p>Computed a Credit risk management model using L1, L2 penalized logistic regression with an accuracy of 93.4%. Predicted Loan delinquency paving the way for more informed credit monitoring</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Credit-Risk-Modelling-Using-Machine-learning"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/cod.jpeg">
+                    <div class="layer">
+                        <h3>Revenue Breakdown Dashboard for Activision Blizzard</h3>
+                        <p>Created A Dashboard Using Tableau and R shiny. This dashboard Visualised the Revenue, Player-related Data. Visualization created helped get a perspective on the financials of the company</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://ellaaa.shinyapps.io/final/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/sustag.jpeg">
+                    <div class="layer">
+                        <h3>The Effect of Sustainable Tags in Fashion</h3>
+                        <p>Conducted a survey and applied hypothesis testing, including Two-Sample T-Test and ANOVA, revealing a significant increase of 42% in the likelihood of purchase and an improved product perception among respondents.</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ishujaswani/overlay/1635520206919/single-media-viewer/?profileId=ACoAACaGjHABXNkwvJPocQaVw2jLy1r8YwqdOIU"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------------- contact ------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> ij2243@columbia.edu</p>
+                    <p> <i class="fa-solid fa-phone"></i> +1(917)216-7363</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ishujaswani/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ishujaswani"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/ishujaswani7/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Images/Ishu_Jaswani_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made by Ishu Jaswani, with easy tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzzDsrZkC5X1mhDQg_TVzRvuZHIAVo5Z51pCJvMyvvCUG5D3MVVY68P68mRxjoP-yQ9/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  </body>
+</html>
