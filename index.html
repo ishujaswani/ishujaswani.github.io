@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/923af28ec7.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="header">
         <video autoplay muted loop id="background-video">
             <source src="Images/Wallpaper_1.mp4" type="video/mp4">
@@ -19,7 +21,7 @@
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -32,7 +34,7 @@
             </div>
         </div>
     </div>
-<!--------------------- about --------------------------->
+    <!--------------------- about --------------------------->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -42,42 +44,65 @@
                 <div class="about-col-2">
                     <h1 class='sub-title'>About Me</h1>
                     <p class="font-size-text">
-                        I was just fifteen when I first got into the world of equities. My father, an investor, roped me in as his research partner. We spent countless evenings analyzing balance sheets, reading market trends, and debating which stocks were worth a second look. <br> <br>
+                        I was just fifteen when I first got into the world of equities. My father, an investor, roped me
+                        in as his research partner. We spent countless evenings analyzing balance sheets, reading market
+                        trends, and debating which stocks were worth a second look. <br> <br>
 
-                        Little did I know those simple father-son lessons would fuel a lifelong passion for investing, leading me to build a strong foundation and potentially grow into a confident successful investor. My goal is to merge fundamental research with quantitative methods, creating a unique approach that translates data into clear, strategic insights and investment decisions. <br> <br>
+                        Little did I know those simple father-son lessons would fuel a lifelong passion for investing,
+                        leading me to build a strong foundation and potentially grow into a confident successful
+                        investor. My goal is to merge fundamental research with quantitative methods, creating a unique
+                        approach that translates data into clear, strategic insights and investment decisions. <br> <br>
 
-                        When I’m not crunching data or plotting the next investment move, you’ll probably find me with a ping pong paddle in hand. I’ve been hooked on the sport since I was twelve, competing in multiple state tournaments and still chasing that perfect backhand. You can often catch me at PingPod on West 37th or West 99th. I’m a passionate F1 fan cheering for Max Verstappen, and I love diving into strategy games like Call of Duty, Fortnite, FIFA, and F1.
+                        When I’m not crunching data or plotting the next investment move, you’ll probably find me with a
+                        ping pong paddle in hand. I’ve been hooked on the sport since I was twelve, competing in
+                        multiple state tournaments and still chasing that perfect backhand. You can often catch me at
+                        PingPod on West 37th or West 99th. I’m a passionate F1 fan cheering for Max Verstappen, and I
+                        love diving into strategy games like Call of Duty, Fortnite, FIFA, and F1.
                     </p>
                     <div class="tab-titles">
-                        <p class = 'tab-links active-link font-size-text' onclick="opentab('Skills')">Skills</p>
-                        <p class = 'tab-links font-size-text' onclick="opentab('Experience')">Experience</p>
-                        <p class = 'tab-links font-size-text' onclick="opentab('Education')">Education</p>
+                        <p class='tab-links active-link font-size-text' onclick="opentab('Skills')">Skills</p>
+                        <p class='tab-links font-size-text' onclick="opentab('Experience')">Experience</p>
+                        <p class='tab-links font-size-text' onclick="opentab('Education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="Skills">
                         <ul>
-                            <li class="font-size-text"><span>Finance</span><br>Financial Modelling, Accounting, Bloomberg, Refinitiv Workspace</li>
-                            <li class="font-size-text"><span>Analytics</span><br>Python, R, Tableau, Mathematics, Statistics, Machine learning</li>
-                            <li class="font-size-text"><span>Economics</span><br>Macroeconomics, Microeconomics, Econometrics</li>
-                             
+                            <li class="font-size-text"><span>Finance</span><br>Financial Modelling, Accounting,
+                                Bloomberg, Refinitiv Workspace</li>
+                            <li class="font-size-text"><span>Analytics</span><br>Python, R, Tableau, Mathematics,
+                                Statistics, Machine learning</li>
+                            <li class="font-size-text"><span>Economics</span><br>Macroeconomics, Microeconomics,
+                                Econometrics</li>
+
                         </ul>
                     </div>
                     <div class="tab-contents" id="Experience">
                         <ul>
-							<li class="font-size-text"><span>Jan 2025 - Current</span><br>Adjunct Associate (Teaching Blockchain) at Columbia University</li>
-							<li class="font-size-text"><span>Jun 2024 - Current</span><br>Financial Analytics at Ascot Group LLC</li>
-                            <li class="font-size-text"><span>Jan 2024 - May 2024</span><br>Investment Banking Intern at Nova Capital</li>
-                            <li class="font-size-text"><span>Jun 2023 - Jun 2024</span><br>Financial Data Research Assistant at Columbia University</li>
-                            <li class="font-size-text"><span>Mar 2022 - May 2022</span><br>Business Analyst at AMN life Science</li>
-                            <li class="font-size-text"><span>Jan 2021 - Jun 2021</span><br>Equity Research Intern at CLSA</li>
-                            <li class="font-size-text"><span>Jan 2020 - Mar 2020</span><br>Capital Markets Consultant at Knight Frank</li>
+                            <li class="font-size-text"><span>Jan 2025 - Current</span><br>Adjunct Associate (Teaching
+                                Blockchain) at Columbia University</li>
+                            <li class="font-size-text"><span>Jun 2024 - Current</span><br>Financial Analytics at Ascot
+                                Group LLC</li>
+                            <li class="font-size-text"><span>Jan 2024 - May 2024</span><br>Investment Banking Intern at
+                                Nova Capital</li>
+                            <li class="font-size-text"><span>Jun 2023 - Jun 2024</span><br>Financial Data Research
+                                Assistant at Columbia University</li>
+                            <li class="font-size-text"><span>Mar 2022 - May 2022</span><br>Business Analyst at AMN life
+                                Science</li>
+                            <li class="font-size-text"><span>Jan 2021 - Jun 2021</span><br>Equity Research Intern at
+                                CLSA</li>
+                            <li class="font-size-text"><span>Jan 2020 - Mar 2020</span><br>Capital Markets Consultant at
+                                Knight Frank</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="Education">
                         <ul>
-                            <li class="font-size-text"><span>Sept 2022 - Dec 2023</span><br>MSc in Applied Analytics - Columbia University</li>
-                            <li class="font-size-text"><span>Aug 2019 - Aug 2020</span><br>PGDM in Economics and Data Analytics - Gokhale Institue of Politics and Economics</li>
-                            <li class="font-size-text"><span>Jan 2019</span><br>Chartered Financial Analyst - Passed level 1 (CFA Institute)</li>
-                            <li class="font-size-text"><span>May 2016 - June 2019</span><br>BAF (Accounting and Finance) - Mumbai University</li>
+                            <li class="font-size-text"><span>Sept 2022 - Dec 2023</span><br>MSc in Applied Analytics -
+                                Columbia University</li>
+                            <li class="font-size-text"><span>Aug 2019 - Aug 2020</span><br>PGDM in Economics and Data
+                                Analytics - Gokhale Institue of Politics and Economics</li>
+                            <li class="font-size-text"><span>Jan 2019</span><br>Chartered Financial Analyst - Passed
+                                level 1 (CFA Institute)</li>
+                            <li class="font-size-text"><span>May 2016 - June 2019</span><br>BAF (Accounting and Finance)
+                                - Mumbai University</li>
                         </ul>
                     </div>
                 </div>
@@ -85,112 +110,168 @@
         </div>
     </div>
 
-<!-- ---------------- Services -------------------- -->
-    <div id="services">
-        <div class="container">
-            <h1 class='sub-title'>My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-money-bill-trend-up"></i>
-                    <h2>Investment Research</h2>
-                    <p>Leveraging a deep understanding of financial data science, econometrics, financial modeling and due diligence to optimize investment strategies</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-hand-holding-dollar"></i>
-                    <h2>Economic Analysis</h2>
-                    <p>Harnessing advanced econometrics and time series modeling to predict business cycles, with a keen insight into global economic trends and their implications</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-database"></i>
-                    <h2>Data Science</h2>
-                    <p>Combining applied analytics with machine learning techniques to drive actionable insights, optimize business processes, and enhance prediction accuracy across diverse domains</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Services removed -->
 
-<!-- ------------------------- portfolio -------------------------     -->
+    <!-- ------------------------- portfolio -------------------------     -->
     <div id="portfolio">
         <div class="container">
             <h1 class='sub-title'>My Projects</h1>
             <div class="work-list">
                 <div class="work">
+                    <img src="Images/trading-strat.jpeg">
+                    <div class="layer">
+                        <h3>Algorithmic Trading using Machine learning</h3>
+                        <p>Engineered a data-driven trading strategy using XGBoost and Random Forest algorithms to
+                            analyze 5 feature categories across 100+ stocks, leveraging Python (Pandas, NumPy,
+                            Matplotlib) for data processing and visualization. </p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://ishujaswani.github.io/Trading-strategy/about.html"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
                     <img src="Images/WSB.jpeg">
                     <div class="layer">
                         <h3>r\wallstreetbets sentiment Analysis</h3>
-                        <p>Spearheaded an ARIMA-based Time Series Analysis to predict 10 tech stocks. Analyzed r/wallstreetbets sentiments (Affin: 0.34, Jocker: 0.10), noted 437 more puts than calls, hinting bearishness. Found 0.6 similarity between predictions and sentiments </p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Creating-Portfolio-using-Machine-learning"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Spearheaded an ARIMA-based Time Series Analysis to predict 10 tech stocks. Analyzed
+                            r/wallstreetbets sentiments (Affin: 0.34, Jocker: 0.10), noted 437 more puts than calls,
+                            hinting bearishness. Found 0.6 similarity between predictions and sentiments </p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/ishujaswani/Creating-Portfolio-using-Machine-learning"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="Images/PM-1.jpeg">
                     <div class="layer">
                         <h3>Active Portfolio Management</h3>
-                        <p>Managed a $1Mn portfolio of 15 stocks, beating the S&P 500 index by 3%. Back tested using advanced models (Index, Mean-Variance, FAMA French, Black Litterman, CAPM, Equity Valuation), algorithmic trading, and machine learning (XGBoost, SVR, Neural Networks)</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Portfolio_Management_With_Machine_Learning"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Managed a $1Mn portfolio of 15 stocks, beating the S&P 500 index by 3%. Back tested using
+                            advanced models (Index, Mean-Variance, FAMA French, Black Litterman, CAPM, Equity
+                            Valuation), algorithmic trading, and machine learning (XGBoost, SVR, Neural Networks)</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/ishujaswani/Portfolio_Management_With_Machine_Learning"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="Images/DataEngg_spark.jpeg">
                     <div class="layer">
                         <h3>Real-Time Stock Trading Analysis with Apache Spark</h3>
-                        <p>Designed a real-time stock trading application using HTML, CSS, Python, and Apache Spark, and analyzed a multi-million dataset of 6875 stocks, incorporating risk management into trading strategies in under 1.5 minutes.</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Stock-Trading-Using-Data-Engineering"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Designed a real-time stock trading application using HTML, CSS, Python, and Apache Spark, and
+                            analyzed a multi-million dataset of 6875 stocks, incorporating risk management into trading
+                            strategies in under 1.5 minutes.</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/ishujaswani/Stock-Trading-Using-Data-Engineering"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="Images/CRM.png">
                     <div class="layer">
                         <h3>Credit Risk Modelling</h3>
-                        <p>Computed a Credit risk management model using L1, L2 penalized logistic regression with an accuracy of 93.4%. Predicted Loan delinquency paving the way for more informed credit monitoring</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Credit-Risk-Modelling-Using-Machine-learning"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Computed a Credit risk management model using L1, L2 penalized logistic regression with an
+                            accuracy of 93.4%. Predicted Loan delinquency paving the way for more informed credit
+                            monitoring</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/ishujaswani/Credit-Risk-Modelling-Using-Machine-learning"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="Images/cod.jpeg">
                     <div class="layer">
                         <h3>Revenue Breakdown Dashboard for Activision Blizzard</h3>
-                        <p>Created A Dashboard Using Tableau and R shiny. This dashboard Visualised the Revenue, Player-related Data. Visualization created helped get a perspective on the financials of the company</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://ellaaa.shinyapps.io/final/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Created A Dashboard Using Tableau and R shiny. This dashboard Visualised the Revenue,
+                            Player-related Data. Visualization created helped get a perspective on the financials of the
+                            company</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://ellaaa.shinyapps.io/final/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="Images/sustag.jpeg">
                     <div class="layer">
                         <h3>The Effect of Sustainable Tags in Fashion</h3>
-                        <p>Conducted a survey and applied hypothesis testing, including Two-Sample T-Test and ANOVA, revealing a significant increase of 42% in the likelihood of purchase and an improved product perception among respondents.</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ishujaswani/overlay/1635520206919/single-media-viewer/?profileId=ACoAACaGjHABXNkwvJPocQaVw2jLy1r8YwqdOIU"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Conducted a survey and applied hypothesis testing, including Two-Sample T-Test and ANOVA,
+                            revealing a significant increase of 42% in the likelihood of purchase and an improved
+                            product perception among respondents.</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://www.linkedin.com/in/ishujaswani/overlay/1635520206919/single-media-viewer/?profileId=ACoAACaGjHABXNkwvJPocQaVw2jLy1r8YwqdOIU"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="Images/defi.jpeg">
                     <div class="layer">
                         <h3>Decentralised Esports Betting Market</h3>
-                        <p>Leveraging blockchain technology, our Esports betting smart contract offers secure payments to winners, dynamic odds calculation, and betting insurance for a seamless and trustworthy betting experience</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Decentralised_Betting_Market"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Leveraging blockchain technology, our Esports betting smart contract offers secure payments
+                            to winners, dynamic odds calculation, and betting insurance for a seamless and trustworthy
+                            betting experience</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/ishujaswani/Decentralised_Betting_Market"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="Images/spotify.png">
                     <div class="layer">
                         <h3>Spotify Music Rating Algorithm</h3>
-                        <p>Predicted Ratings of Spotify data which consisted of various aspects of a song. The best machine learning algorithm out of the 23 models which I ran to get the best fit was the hyper-tuned random forest algorithm. Engineering the supervised Random Forest algorithm gave an RMSE of 14.88767.</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Spotify-music-rating-prediction-algorithm"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="Images/EFC.png">
-                    <div class="layer">
-                        <h3>Mean-Variance Optimiser - Portfolio Management</h3>
-                        <p>Programmed a Python Mean-Variance Portfolio Optimizer utilizing SLSQP optimization for any number of stocks and achieved a Sharpe Ratio of 1.26 for the portfolio, consisting of 4 tech stocks (AMZN, IBM, CISCO, AAPL).</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani/Mean-Variance-Optimiser"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Predicted Ratings of Spotify data which consisted of various aspects of a song. The best
+                            machine learning algorithm out of the 23 models which I ran to get the best fit was the
+                            hyper-tuned random forest algorithm. Engineering the supervised Random Forest algorithm gave
+                            an RMSE of 14.88767.</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/ishujaswani/Spotify-music-rating-prediction-algorithm"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<!-- ---------------------------- Interests ------------------------- -->
-<!-- ---------------------------- contact ------------------------- -->
+    <!-- ---------------------------- Interests ------------------------- -->
+    <div id="certifications">
+        <div class="container">
+            <h1 class='sub-title'>Certifications</h1>
+            <p class="font-size-text" style="color:#ababab;margin-top:10px;">A selection of professional certifications
+                and important credentials.</p>
+            <div class="work-list">
+                <div class="work">
+                    <div class="badge-wrapper">
+                        <a href="http://basno.com/2o5p8o20" target="_blank" rel="noopener noreferrer">
+                            <img class="cert-badge" src="http://basno.com/2o5p8o20.png" alt="CFA Level I badge">
+                        </a>
+                    </div>
+                    <div class="layer">
+                        <h3>CFA Level I (Passed)</h3>
+                        <p>Chartered Financial Analyst - Passed Level I (Jan 2019)</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://basno.com/2o5p8o20"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/AK_logo.png" alt="Akuna Capital University">
+                    <div class="layer">
+                        <h3>Options 101</h3>
+                        <p>Options Pricing, option greeks, hedging strategies</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="Images/certificate-of-completion-for-akuna-capital-options-101.pdf"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/KX_LOGO.jpeg" alt="KDB+/q">
+                    <div class="layer">
+                        <h3>KDB+/q Developer Level 1</h3>
+                        <p>The world's fastest vector based in-memory database for financial analytics</p>
+                        <a target="_blank" rel="noopener noreferrer" href="Images/KDB+:q-certifcation.pdf"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>`
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ---------------------------- contact ------------------------- -->
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -199,9 +280,12 @@
                     <p> <i class="fa-solid fa-paper-plane"></i> ij2243@columbia.edu</p>
                     <p> <i class="fa-solid fa-phone"></i> +1(917)216-7363</p>
                     <div class="social-icons">
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ishujaswani/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani"><i class="fa-brands fa-github"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ishujaswani7/"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ishujaswani/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ishujaswani"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ishujaswani7/"><i
+                                class="fa-brands fa-instagram"></i></a>
                     </div>
                     <a href="Images/Ishu_Jaswani_Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
@@ -223,11 +307,11 @@
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
@@ -237,11 +321,11 @@
     <script>
         var sidemenu = document.getElementById("sidemenu");
 
-        function openmenu(){
-            sidemenu.style.right="0";
+        function openmenu() {
+            sidemenu.style.right = "0";
         }
-        function closemenu(){
-            sidemenu.style.right="-200px";
+        function closemenu() {
+            sidemenu.style.right = "-200px";
         }
 
     </script>
@@ -249,19 +333,20 @@
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzzDsrZkC5X1mhDQg_TVzRvuZHIAVo5Z51pCJvMyvvCUG5D3MVVY68P68mRxjoP-yQ9/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
-      
+
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message Sent Successfully"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-      </script>
-  </body>
+    </script>
+</body>
+
 </html>
